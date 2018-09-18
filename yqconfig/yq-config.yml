@@ -1,1 +1,7 @@
 ﻿diy.redis.prefix.appssid: testData!!
+
+
+spring.rabbitmq.host: goodtime-iot.com
+spring.rabbitmq.port: 5672
+spring.rabbitmq.username: admin
+spring.rabbitmq.password: 123456
