@@ -29,7 +29,9 @@ zuul:
     api-a:
       path: /api-app/**
       serviceId: yq-app
-      
+    api-b:
+      path: /api-device/**
+      serviceId: yq-device
 ribbon:
     ReadTimeout: 60000
     ConnectTimeout: 60000
